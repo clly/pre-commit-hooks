@@ -1,0 +1,6 @@
+- id: go-imports
+  name: 'go imports'
+  entry: run-go-imports.sh
+  files: '\.go$'
+  language: 'script'
+  description: "Runs `goimports`, requires golang"
